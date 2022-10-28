@@ -1,14 +1,15 @@
 <template>
   <refReactive />
+  <stopWatchEffect />
 </template>
 
 <script>
-import refReactive from "./components/refReactive.vue";
+import stopWatchEffect from "./components/stopWatchEffect.vue";
 
 export default {
   name: "App",
   components: {
-    refReactive,
+    stopWatchEffect,
   },
 };
 </script>
